@@ -2,6 +2,7 @@
 	margin: 0px;
 	padding:0px;
 }
+
 .nav-img{
   width: 70px;
   height: 35px;
@@ -12,8 +13,7 @@
 	padding-top: 150px;
 	padding-bottom: 280px;
 	border-radius: 20px;
-	border-top-left-radius: 40px;
-    border-bottom-right-radius: 40px;
+	
     
 }
 .typewrite{
@@ -137,6 +137,7 @@
     min-height: 100vh;
     border-radius: 20px;
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+
 }
 
 .gallery-container h1 {
@@ -144,6 +145,7 @@
     margin-top: 70px;
     font-family: 'Droid Sans', sans-serif;
     font-weight: bold;
+
 
 }
 
