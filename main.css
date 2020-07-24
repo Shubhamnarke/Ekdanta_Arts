@@ -56,10 +56,21 @@
 .bappa{
 	margin-top: -20px;
 	padding-top: 5%;
-	background-color: #ffe0cc;
+	background-color: #ffffe6;
     transform: skewY(-2deg);
 
 
+}
+.murti-type{
+	font-weight: 700;
+	margin-left: 10px;
+
+	color: #ff3300;
+	text-shadow: 2px 5px #ffff99;
+}
+.murti-info{
+	margin-left: 60px;
+	margin-bottom: 20px;
 }
 .sr-no{
 	text-align: center;
@@ -69,7 +80,7 @@
 	transform: skewY(2deg);
 }
 .box{
-	background-color: #ffeee6;
+	background-color: #ffffe6;
 	border-radius: 20px;
 	margin-bottom: 30px;
 	padding-top: 30px;
@@ -80,9 +91,9 @@
 	font-weight: 200;
 }
 .height{
-	color: #ff6600;
+	color: white;
 	font-size: 12px;
-	float: left;
+	
 	margin-left: 3px;
 }
 .thumbnail{
@@ -93,8 +104,8 @@
 }
 .stock{
 	font-size: 12px;
-	margin-left:80px;
-	color: #ff6600;
+	margin-left: 120px;
+	color: white;
 }
 .h-s{
 	margin-top: -10px;
@@ -107,10 +118,10 @@
   border-radius: 50%;
   
 }
-.stock-left{
-	margin-top: -40px;
-	color: #808080;
-	margin-left: 170px;
+.stock{
+	margin-top: -44px;
+	color: white;
+	margin-left: 160px;
 	font-size: 12px;
 	margin-bottom: 20%;
 
@@ -118,18 +129,19 @@
 
 .hr{
   border-top: 1px solid #ff6600;
-  margin-top: -10px;
+  margin-top: -60px;
   margin-bottom: 20%;
   opacity: 0.2;
 }
 
 .icon{
-  margin-top: -21px;
+  margin-top: -31px;
   padding-bottom: 25px;
   margin-left: 40px;
  
 }
 .icon-text{
+	margin-top: -2px;
 	margin-left: 40px;
 	color: #e6e6e6;
 	font-size: 14px;
