@@ -7,10 +7,27 @@
   height: 35px;
   
 }
+html{
+	scroll-behavior: smooth;
+}
 .thumb{
   -webkit-box-shadow: -5px -3px 5px -2px rgba(214,214,214,1);
     -moz-box-shadow: -1px -3px 5px -2px rgba(214,214,214,1);
   box-shadow: -1px -13px 170px -2px #ff6600;
+}
+
+.pro-head-text
+{
+	font-size: 25px;
+	text-align: center;
+	color: white;
+	margin-top: 30%;
+}
+.pro-para-text{
+	font-size: 12px;
+	margin-left: 210px;
+	color: white;
+	margin-top: 2%;
 }
 .main{
 	background-color: #ff9900;
@@ -57,7 +74,10 @@
 	margin-top: -20px;
 	padding-top: 5%;
 	background-color: #ffffe6;
+	border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
     transform: skewY(-2deg);
+    
 
 
 }
@@ -69,16 +89,14 @@
 	text-shadow: 2px 5px #ffff99;
 }
 .murti-info{
-	margin-left: 60px;
+	margin-left: 50px;
 	margin-bottom: 20px;
 }
 .sr-no{
 	text-align: center;
 	color: white;
 }
-.tielt{
-	transform: skewY(2deg);
-}
+
 .box{
 	background-color: #ffffe6;
 	border-radius: 20px;
@@ -90,11 +108,17 @@
 	padding-top: 10%;
 	font-weight: 200;
 }
+
 .height{
+
+	font-size: 10px;
+
+}
+.height-m{
 
 	font-size: 12px;
 	
-	margin-left: 3px;
+	margin-left: -6px;
 }
 .thumbnail{
   
@@ -104,24 +128,33 @@
 }
 
 .h-s{
+	margin-left: 35px;
 	margin-top: -10px;
 	margin-bottom: 20px;
 }
 .contact-icon{
   width: 30px;
   height: 30px;
-  margin-left: 20px;
+  margin-left: 10px;
   border-radius: 50%;
-  margin-top: 4px;
+  margin-top: 2px;
   
 }
 .stock{
-	margin-top: -44px;
 	
-	margin-left: 160px;
+	
+	padding-left: 5px;
+	font-size: 10px;
+
+
+
+}
+.stock-m{
+	margin-top: -24px;
+	margin-left: 50px;
+	
 	font-size: 12px;
 	margin-bottom: 20%;
-
 }
 
 .hr{
@@ -132,9 +165,9 @@
 }
 
 .icon{
-  margin-top: -31px;
+  margin-top: -11px;
   padding-bottom: 25px;
-  margin-left: 30px;
+  margin-left: 10px;
  
 }
 .icon-text{
@@ -193,7 +226,9 @@
 .baguetteBox-button {
     background-color: transparent !important;
 }
-
+.margin{
+	margin-left: 10px;
+}
 
 @media(max-width: 768px) {
     body {
@@ -203,4 +238,81 @@
     .container.gallery-container {
         border-radius: 0;
     }
+}
+
+
+
+/*=----------payment menthos------------*/
+
+
+.payment{
+	border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    transform: skewY(-2deg);
+	padding-top: 20%;
+	background-color: #b3b3b3;
+	padding-bottom: 20%;
+}
+
+.payment-head-text{
+	transform: skewY(2deg);
+	padding-bottom: 10%;
+	font-size: 20px;
+	text-align: center;
+	font-weight: 500;
+}
+
+.payment-img{
+	transform: skewY(2deg);
+	width: 90%;
+	margin-left: 20px;
+}
+.account-head-text{
+	padding-top: 20%;
+	transform: skewY(2deg);
+	padding-bottom: 10%;
+	font-size: 20px;
+	text-align: center;
+	font-weight: 500;
+}
+
+
+.details-head{
+  transform: skewY(2deg);
+
+
+  font-weight: normal;
+}
+.details{
+  transform: skewY(2deg);
+
+  text-align: center;
+  list-style: none;
+
+}
+/*-------contact developer----*/
+
+.Contact{
+	margin-top: -30px;
+	background-color: #e6ffe6;
+	padding-top: 20%;
+	padding-bottom: 20%;
+}
+.contact-head-text{
+	padding-top: 20%;
+	
+	padding-bottom: 10%;
+	font-size: 20px;
+	text-align: center;
+	font-weight: 500;
+}
+
+.digital-card{
+	margin-top: 10%;
+	margin-bottom: 20%;
+	align-items: center;
+	margin-left: 45px;
+}
+.para{
+	padding: 10px;
 }
